@@ -12,6 +12,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!--Enlace aleatorio-->
+    <script> 
+        var direcciones = new Array("templates/hyperspace/index.html", "templates/parallelism/index.html", "templates/prologue/index.html", "templates/multiverse/index.html", "templates/tessellate/index.html", "templates/hyperspace/index.html", "templates/spectral/index.html", "templates/dimension/index.html", "templates/bigpicture/index.html", "templates/astral/index.html", "templates/ethereal/index.html")
+        function rndminlook(){ 
+            aleat = Math.random() * direcciones.length 
+            aleat = Math.floor(aleat) 
+            window.location=direcciones[aleat] 
+        } 
+    </script>
+    <!--Fin de enlace aleatorio-->
+
 </head>
 
 <body class="is-preload">
@@ -34,6 +46,7 @@
                 <ul class="links">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="clients.html">Clientes Satisfechos</a></li>
                     <li><a href="templates.html">InstantPreviews</a></li>
                 </ul>
                 <a href="#" class="close">Cerrar</a>
@@ -55,10 +68,10 @@
             <!-- One -->
             <section id="one" class="wrapper spotlight style1">
                 <div class="inner">
-                    <a href="#" class="image"><img src="images/svsites_01.jpg" alt="" /></a>
+                    <a href="about.html" class="image"><img src="images/svsites_01.jpg" alt="" /></a>
                     <div class="content">
                         <h2 class="major">¿Quiénes somos?</h2>
-                        <p>Construimos tu sitio web limpio, elegante y 100% responsive, y estará disponible <br> ¡en sólo 1 día!</p>
+                        <p>Construimos tu sitio web limpio, elegante y 100% responsive, y estará disponible <br> <b>¡en sólo 24 horas!</b></p>
                     </div>
                 </div>
             </section>
@@ -66,7 +79,7 @@
             <!-- Two -->
             <section id="two" class="wrapper alt spotlight style2">
                 <div class="inner">
-                    <a href="#" class="image"><img src="images/celu.jpg" alt="" /></a>
+                    <a href="about.html" class="image"><img src="images/celu.jpg" alt="" /></a>
                     <div class="content">
                         <h2 class="major">Nuestra misión</h2>
                         <p>Brindar sitios web sencillos, profesionales y a un precio accesible para las empresas que quieran darse a conocer en la escena salvadoreña en múltiples ámbitos.</p>
@@ -77,12 +90,12 @@
             <!-- Three -->
             <section id="three" class="wrapper spotlight style3">
                 <div class="inner">
-                    <a href="#" class="image"><img src="images/compu.jpg" alt="" /></a>
+                    <a href="about.html" class="image"><img src="images/compu.jpg" alt="" /></a>
                     <div class="content">
                         <h2 class="major">¿Empezamos?</h2>
                         <p>El proceso para obtener tu sitio web con SV Sites es extremadamente sencillo y no necesitas conocer nada de código HTML ni esas cosas raras. Sólo busca un estilo de <i><b>InstantLook</b></i> que se ajuste a tu negocio, llena la
                             plantilla con tu información y déjanos el resto a nosotros ;)</p>
-                        <a href="#" class="special">Instant Preview</a>
+                        <a href="javascript:rndminlook()" class="special" target="_blank">Instant Preview para ti</a>
                     </div>
                 </div>
             </section>
@@ -98,28 +111,41 @@
                     </p>
                     <section class="features">
                         <article>
-                            <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-                            <h3 class="major">Básica 01</h3>
-                            <p>Fina, elegante y sencilla de ver.</p>
-                            <a href="#" class="special">Instant Preview</a>
+                            <a href="templates/spectral/index.html" target="_blank" class="image"><img src="images/pic08.png" alt="Spectral" /></a>
+                            <h3 class="major">Spectral</h3>
+                            <p>Imágenes grandes y datos varios muy organizados con posibles botones, perfecto para desarrolladores y empresas de turismo. ¡Qué bonito El Salvador y su gente!</p>
+                                <ul class="actions">
+                                    <li><a href="templates/spectral/index.html" target="_blank" class="special">Instant Preview</a></li>
+                                    <li><a href="templates/spectral/ordencompraspectral.docx" class="button primary icon fa-download">Orden de compra ($25)</a></li>
+                                </ul>
                         </article>
                         <article>
-                            <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-                            <h3 class="major">Básica 02</h3>
-                            <p>Fácil de entender y de carga rápida.</p>
-                            <a href="#" class="special">Instant Preview</a>
+                            <a href="templates/hyperspace/index.html" target="_blank" class="image"><img src="images/pic05.png" alt="Hyperspace" /></a>
+                            <h3 class="major">Hyperspace</h3>
+                            <p>Información concreta de tu empresa y un menú que guía al visitante para que encuentre lo que busca con un sólo click.</p>
+                                <ul class="actions">
+                                    <li><a href="templates/hyperspace/index.html" target="_blank" class="special">Instant Preview</a></li>
+                                    <li><a href="templates/hyperspace/ordencomprahyperspace.docx" class="button primary icon fa-download">Orden de compra ($25)</a></li>
+                                </ul>
                         </article>
                         <article>
-                            <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-                            <h3 class="major">Cocina y Postres</h3>
-                            <p>Ideal para negocios de comida, muestra el toque de tu cocina en un vistazo.</p>
-                            <a href="#" class="special">Instant Preview</a>
+                            <a href="templates/multiverse/index.html" target="_blank" class="image"><img src="images/pic06.png" alt="Multiverse" /></a>
+                            <h3 class="major">Multiverse</h3>
+                            <p>Centrado en la imagen, muestra tu arte al mundo de la mejor manera.</p>
+                                <ul class="actions">
+                                    <li><a href="templates/multiverse/index.html" target="_blank" class="special">Instant Preview</a></li>
+                                    <li><a href="templates/multiverse/ordencompramultiverse.docx" class="button primary icon fa-download">Orden de compra ($25)</a></li>
+                                </ul>
                         </article>
                         <article>
-                            <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-                            <h3 class="major">Arte</h3>
-                            <p>Muestra un poco de tu portafolio y da a conocer tu arte al mundo.</p>
-                            <a href="#" class="special">Instant Preview</a>
+                            <a href="templates/ethereal/index.html" target="_blank" class="image"><img src="images/pic10.png" alt="Ethereal" /></a>
+                            <h3 class="major">Ethereal</h3>
+                            <p>Una tarjeta de presentación digital, con toda la magia que esto implica ;)<br>
+                            Scroll especial y espacio para muchas imágenes con visualización en pantalla completa ¿Qué más se puede pedir?</p>
+                                <ul class="actions">
+                                    <li><a href="templates/ethereal/index.html" target="_blank" class="special">Instant Preview</a></li>
+                                    <li><a href="templates/ethereal/ordencompraethereal.docx" class="button primary icon fa-download">Orden de compra ($25)</a></li>
+                                </ul>
                         </article>
                     </section>
                     <ul class="actions">
@@ -141,15 +167,15 @@
                     <div class="fields">
                         <div class="field">
                             <label for="name">Nombre</label>
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="name" id="name" required />
                         </div>
                         <div class="field">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" />
+                            <input type="email" name="email" id="email" required />
                         </div>
                         <div class="field">
                             <label for="message">Mensaje</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
+                            <textarea name="message" id="message" rows="4" required></textarea>
                         </div>
                     </div>
                     <ul class="actions">
@@ -191,7 +217,7 @@
                 </ul>
                 <center>
                     <ul class="copyright">
-                        <li>&copy; SV Sites. Derechos Reservados.</li>
+                        <li>&copy; <a href="index.html">SV Sites.</a> Derechos Reservados.</li>
                         <li>Santa Ana 2018</li>
                     </ul>
                 </center>
